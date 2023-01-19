@@ -11,7 +11,7 @@ box-sizing: border-box;
 
 body{
 
-overflow-x: hidden;
+/* overflow-x: hidden; */
 font-family: Georgia, 'Times New Roman', Times, serif;
 
 width: 1000px;
@@ -627,25 +627,25 @@ background: rgba(35, 35, 35, 1)
 
 
 
-@media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 700px) {
 
 
 
     body{
 
-        /* overflow-x: hidden; */
+
         font-family: Georgia, 'Times New Roman', Times, serif;
         
         width: 540px;
 
 
-  
+  overflow-x: hidden;
         border: 1px solid gray;
   
         
         background-color: #fff;
 
-        margin-left: 0;
+        margin-left: 10%;
         
         }
 
@@ -707,10 +707,7 @@ background: rgba(35, 35, 35, 1)
             
             
             
-            /* a{
-            
-                color: #fff;   
-            } */
+           
             
             #auth{
             
@@ -786,7 +783,7 @@ background: rgba(35, 35, 35, 1)
                     }
 
 
-/*  */
+
 
 #header_logo{
 
@@ -873,18 +870,18 @@ background: rgba(35, 35, 35, 1)
         border: 0;
         }
         
-        /*  */
+
     
         #banner{
 
-            /* border: 1px solid gray; */
+
         
         grid-column: 1/5;
         
         grid-row: 2/3;
         height: 403px;
         width: 540px;
-        /* background: linear-gradient( 90deg, #BAEEDA 50%, #F7CFC6 50%); */
+
         background: #b380ff;
         display: flex;
         
@@ -934,16 +931,16 @@ background: rgba(35, 35, 35, 1)
         height:395px ;
         width: 553px;
         margin-top: 7px;
-        /* margin-right: 21px; */
+     
          }
         
          
             
-        /*  */
+
 
         #content{
 
-            /* border: 1px solid gray; */
+  
         
             grid-column: 1/5;
             grid-row: 3/4;
@@ -968,7 +965,6 @@ background: rgba(35, 35, 35, 1)
 
             width: 250px;
             height: 430px;
-            /* margin-top: 120px; */
             margin-left: 19px;
             grid-column: 1/2;
             
@@ -985,14 +981,14 @@ background: rgba(35, 35, 35, 1)
 
 
 
-            /*  */
+    
             #content #right{
 
 
                 display: grid;
                 grid-template-columns: repeat(2,auto);
                 grid-template-rows: repeat(2,auto);
-                /* margin-top: 120px; */
+               
             margin-left: -379px;
             font-size: 13px;
             
@@ -1054,14 +1050,14 @@ background: rgba(35, 35, 35, 1)
                         }
             
             
-            /*  */
+         
             #item2{
 
                 grid-column: 2/3;
                 height: 104px;
                 width: 107px;
 
-                /* margin-left: -280px; */
+        
                 text-align: center;
             justify-content: center;
                 
@@ -1076,7 +1072,7 @@ background: rgba(35, 35, 35, 1)
                 margin-left: 329px;
                 text-align: center;
             justify-content: center;
-            /* margin-top: -80px; */
+          
                 
             }
             
@@ -1087,10 +1083,10 @@ background: rgba(35, 35, 35, 1)
                 height: 104px;
                 width: 107px;
            
-                /* margin-left: -280px; */
+              
                 text-align: center;
             justify-content: center;
-            /* margin-top: -80px; */
+            
                 
             }
             
@@ -1139,7 +1135,7 @@ background: rgba(35, 35, 35, 1)
                 
             }
             
-            /*  */
+           
 
             #footer{
 
@@ -1233,7 +1229,11 @@ background: rgba(35, 35, 35, 1)
                 
                 }
             
-/* ...... */
+
 }
 
+ 
 
+
+
+ 
